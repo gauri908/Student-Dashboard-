@@ -1,0 +1,225 @@
+body{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: linear-gradient(27deg,#2c3e50,#2c3e50 50%);*/
+    background-image: url("Public/Images/back.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.background-image{
+    position:relative;
+}
+.form_body
+{
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform:translate(-50%,-50%);
+ height: 600px;
+ width: 600px;
+ border-radius: 10px;
+ border-top-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+
+.form_body .text{
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    margin-left: 120px;
+    margin-top: -5px;
+    margin-bottom: 2px solid;
+    border-radius: 3px;
+    width :180px;
+}
+.form_body input,
+.form_body select,
+.form_body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background: transparent; 
+    color: white; 
+    outline: none; 
+    resize: vertical; 
+}
+.form_body header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+.form_body label {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+
+.form_body select,
+.form_body input,
+.form_body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: white;
+}
+.form_body input[type="radio"],
+.form_body input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form_body input[type="submit"] {
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.form_body input::placeholder,
+.form_body textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);  
+}
+
+.form_body input[type="submit"]:hover {
+    background: #1f618d;
+}
+
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: static;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #231952;
+    padding: 15px 20px;
+    color: white;
+    
+    z-index: 1000;
+
+}
+
+/* Logo Styling 
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+*/
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label {
+    display: block;
+    font-weight: bold;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b3159;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mainf{
+    padding: 150px;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-top:0;
+    margin-left:0;
+}
+button{
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+}
